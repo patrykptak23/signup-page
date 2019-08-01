@@ -1,0 +1,80 @@
+body {
+    background-color: #eceef1;
+    box-sizing: border-box;
+}
+nav{
+    float: right;
+    padding-right: 1em;
+    font-size: .88em;
+    line-height: 1.3; 
+}
+nav div{
+    display: inline-block;
+    padding: 1em .3em;
+}
+nav div:last-of-type {
+    float: right;   
+}
+#container{
+    clear: both;
+    max-width: 1600px;
+    margin:0;
+}
+#instuit-logo {
+    width: 7.5em;
+    margin: 0 auto;
+    padding-top: .5em;
+}
+#trilogo {
+    margin: 0 auto;
+    width: 22em;
+}
+#trilogo div {
+    display: inline-block;
+    padding: 1em .3em;
+}
+form {
+    background: white;
+    border: 1px solid rgb(199,199,199);
+    padding: 2em;
+    text-align: center;
+}
+fieldset {
+    text-align: left;   
+}
+form > * {
+    padding-top: 2em;
+}
+
+form h2 {
+    padding: 0;
+    font-size: 26px;
+}
+
+.btn {
+    width: 100%;
+    color: white;
+    background: rgb(0,119,197);
+    border: none;
+    border-radius: .2em;
+    padding: .8em 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+label {
+    color: #404040;
+    font-size: 1.1rem;
+  } 
+input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    min-height: 45px;
+    font-size: 1.2rem;
+    padding: 5px 8px;
+    resize: vertical;
+}
+a {
+    text-decoration: none;
+}
